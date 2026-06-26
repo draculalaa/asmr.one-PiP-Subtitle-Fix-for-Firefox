@@ -3,12 +3,14 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Fix Picture-in-Picture subtitle display on asmr.one for Firefox-based browsers. Works by patching feature detection and providing an alternative popup subtitle window.
-// @author       deepseek
+// @author       deepseek v4 flash
 // @match        https://asmr.one/*
-// @icon         https://asmr.one/statics/app-logo-128x128.png
+// @match        https://asmr-100.com/*
+// @match        https://asmr-200.com/*
+// @match        https://asmr-300.com/*
 // @grant        none
-// @license      unlicense
 // @run-at       document-start
+// @license      Unlicense
 // ==/UserScript==
 
 (function() {
