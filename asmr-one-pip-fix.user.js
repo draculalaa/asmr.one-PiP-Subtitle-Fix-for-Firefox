@@ -7,6 +7,7 @@
 // @match        https://asmr.one/*
 // @icon         https://asmr.one/statics/app-logo-128x128.png
 // @grant        none
+// @license      unlicense
 // @run-at       document-start
 // ==/UserScript==
 
